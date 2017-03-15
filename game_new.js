@@ -5,7 +5,7 @@
 
 KEY_CODES = {
   13: 'enter',
-  32: 'space',
+  3d2: 'space',
   37: 'left',
   39: 'right',
   40: 'down',
