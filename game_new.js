@@ -13,7 +13,8 @@ KEY_CODES = {
   71: 'g',
   72: 'h',
   77: 'm',
-  80: 'p'
+  80: 'p',
+  second:'2',
 }
 
 KEY_STATUS = { keyDown:false };
