@@ -1,0 +1,26 @@
+random	/Users/mac/Desktop/recipes/ML/GaussianNB/pre_terrain_data.py	/^import random$/;"	namespace	line:2
+makeTerrainData	/Users/mac/Desktop/recipes/ML/GaussianNB/pre_terrain_data.py	/^def makeTerrainData(n_points=1000):$/;"	function	line:5
+GaussianNB	/Users/mac/Desktop/recipes/ML/GaussianNB/ClassifyNB.py	/^from sklearn.naive_bayes import GaussianNB$/;"	namespace	line:2
+classify	/Users/mac/Desktop/recipes/ML/GaussianNB/ClassifyNB.py	/^def classify(features_train, labels_train):$/;"	function	line:3
+warnings	/Users/mac/Desktop/recipes/ML/GaussianNB/class_vis.py	/^import warnings$/;"	namespace	line:4
+matplotlib	/Users/mac/Desktop/recipes/ML/GaussianNB/class_vis.py	/^import matplotlib$/;"	namespace	line:7
+matplotlib	/Users/mac/Desktop/recipes/ML/GaussianNB/class_vis.py	/^import matplotlib.pyplot as plt$/;"	namespace	line:10
+plt	/Users/mac/Desktop/recipes/ML/GaussianNB/class_vis.py	/^import matplotlib.pyplot as plt$/;"	namespace	line:10
+pl	/Users/mac/Desktop/recipes/ML/GaussianNB/class_vis.py	/^import pylab as pl$/;"	namespace	line:11
+np	/Users/mac/Desktop/recipes/ML/GaussianNB/class_vis.py	/^import numpy as np$/;"	namespace	line:12
+prettyPicture	/Users/mac/Desktop/recipes/ML/GaussianNB/class_vis.py	/^def prettyPicture(clf, X_test, y_test):$/;"	function	line:18
+base64	/Users/mac/Desktop/recipes/ML/GaussianNB/class_vis.py	/^import base64$/;"	namespace	line:49
+json	/Users/mac/Desktop/recipes/ML/GaussianNB/class_vis.py	/^import json$/;"	namespace	line:50
+subprocess	/Users/mac/Desktop/recipes/ML/GaussianNB/class_vis.py	/^import subprocess$/;"	namespace	line:51
+output_image	/Users/mac/Desktop/recipes/ML/GaussianNB/class_vis.py	/^def output_image(name, format, bytes):$/;"	function	line:53
+makeTerrainData	/Users/mac/Desktop/recipes/ML/GaussianNB/studentMain.py	/^from prep_terrain_data import makeTerrainData$/;"	namespace	line:11
+prettyPicture	/Users/mac/Desktop/recipes/ML/GaussianNB/studentMain.py	/^from class_vis import prettyPicture, output_image$/;"	namespace	line:12
+output_image	/Users/mac/Desktop/recipes/ML/GaussianNB/studentMain.py	/^from class_vis import prettyPicture, output_image$/;"	namespace	line:12
+classify	/Users/mac/Desktop/recipes/ML/GaussianNB/studentMain.py	/^from ClassifyNB import classify$/;"	namespace	line:13
+np	/Users/mac/Desktop/recipes/ML/GaussianNB/studentMain.py	/^import numpy as np$/;"	namespace	line:15
+pl	/Users/mac/Desktop/recipes/ML/GaussianNB/studentMain.py	/^import pylab as pl$/;"	namespace	line:16
+grade_fast	/Users/mac/Desktop/recipes/ML/GaussianNB/studentMain.py	/^grade_fast = [features_train[ii][0] for ii in range(0, len(features_train)) if labels_train[ii]==0]$/;"	variable	line:24
+bumpy_fast	/Users/mac/Desktop/recipes/ML/GaussianNB/studentMain.py	/^bumpy_fast = [features_train[ii][1] for ii in range(0, len(features_train)) if labels_train[ii]==0]$/;"	variable	line:25
+grade_slow	/Users/mac/Desktop/recipes/ML/GaussianNB/studentMain.py	/^grade_slow = [features_train[ii][0] for ii in range(0, len(features_train)) if labels_train[ii]==1]$/;"	variable	line:26
+bumpy_slow	/Users/mac/Desktop/recipes/ML/GaussianNB/studentMain.py	/^bumpy_slow = [features_train[ii][1] for ii in range(0, len(features_train)) if labels_train[ii]==1]$/;"	variable	line:27
+clf	/Users/mac/Desktop/recipes/ML/GaussianNB/studentMain.py	/^clf = classify(features_train, labels_train)$/;"	variable	line:32
