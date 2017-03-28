@@ -1,0 +1,2 @@
+listdir	/Users/mac/Desktop/AI/Python/Practise/rename_files.py	/^from os import listdir$/;"	namespace	line:1
+files	/Users/mac/Desktop/AI/Python/Practise/rename_files.py	/^files = listdir("\/Users\/mac\/Desktop\/AI\/Python\/Practise\/prank")$/;"	variable	line:3
