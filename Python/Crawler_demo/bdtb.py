@@ -56,7 +56,7 @@ class BDTB:
         pattern = re.compile('<li class="l_reply_num.*?</span>.*?<span.*?>(.*?)</span>', re.S)
         result = re.search(pattern, page_content)
         if result:
-            print result.group(1)
+            # print result.group(1)
             return result.group(1).strip()
         else:
             return None
@@ -67,6 +67,8 @@ class BDTB:
         items = re.findall(pattern, page_content)
         contents = []
         for item in items:
+            print item 
+
             item = self.tool.replace(item)
             contents.append(item)
         return contents
