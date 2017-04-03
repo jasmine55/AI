@@ -203,11 +203,9 @@ vector31 = Vector([6.404, -9.144, 2.759, 8.718])
 # print vector_projection(vector30, vector31)
 # print vector_minus(vector30, Vector(vector_projection(vector30, vector31)))
 
-
 vector32 = Vector([8.462, 7.893, -8.187])
 vector33 = Vector([6.984, -5.975, 4.778])
 print '向量积：', vetor_cross_product(vector32, vector33)
-
 
 vector34 = Vector([-8.987, -9.838, 5.031])
 vector35 = Vector([-4.268, -1.861, -8.866])
@@ -215,10 +213,7 @@ vector = Vector(vetor_cross_product(vector34, vector35))
 print vector_dot_product(vector34, vector)
 print 'area of parallelogram:', vector.get_magnitude()
 
-
 vector36 = Vector([1.5, 9.547, 3.691])
 vector37 = Vector([-6.007, 0.124, 5.772])
 vector2 = Vector(vetor_cross_product(vector36, vector37))
-print vector2
-
 print 'area of triangle:', vector2.get_magnitude() / 2
